@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.bg-tran2{
+  border-radius: 16px;
+    background: rgba(83, 83, 83, 0.25);
+    backdrop-filter: blur(13px);
+    -webkit-backdrop-filter: blur(13px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+  overflow: hidden;
+}
+
+.bg-tran{
+  background: rgba(255,255,255,.3)
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
